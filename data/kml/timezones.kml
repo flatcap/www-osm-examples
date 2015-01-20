@@ -1,123 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <kml xmlns="http://earth.google.com/kml/2.2">
 	<Document>
-		<Style id="nStylem1200"> <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d261d6cd</color> </PolyStyle> </Style>
-		<Style id="nStylem1100"> <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d25bb85f</color> </PolyStyle> </Style>
-		<Style id="nStylem1000"> <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d20c939c</color> </PolyStyle> </Style>
-		<Style id="nStylem0950"> <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d2eafeff</color> </PolyStyle> </Style>
-		<Style id="nStylem0900"> <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d299f7ff</color> </PolyStyle> </Style>
-		<Style id="nStylem0850"> <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d2eafeff</color> </PolyStyle> </Style>
-		<Style id="nStylem0800"> <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d261d6cd</color> </PolyStyle> </Style>
-		<Style id="nStylem0700"> <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d25bb85f</color> </PolyStyle> </Style>
-		<Style id="nStylem0600"> <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d20c939c</color> </PolyStyle> </Style>
-		<Style id="nStylem0500"> <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d299f7ff</color> </PolyStyle> </Style>
-		<Style id="nStylem0400"> <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d261d6cd</color> </PolyStyle> </Style>
-		<Style id="nStylem0350"> <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d2eafeff</color> </PolyStyle> </Style>
-		<Style id="nStylem0300"> <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d25bb85f</color> </PolyStyle> </Style>
-		<Style id="nStylem0200"> <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d20c939c</color> </PolyStyle> </Style>
-		<Style id="nStylem0100"> <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d299f7ff</color> </PolyStyle> </Style>
-		<Style id="nStyle0000">  <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d261d6cd</color> </PolyStyle> </Style>
-		<Style id="nStyle0100">  <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d25bb85f</color> </PolyStyle> </Style>
-		<Style id="nStyle0200">  <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d20c939c</color> </PolyStyle> </Style>
-		<Style id="nStyle0300">  <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d299f7ff</color> </PolyStyle> </Style>
-		<Style id="nStyle0350">  <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d2eafeff</color> </PolyStyle> </Style>
-		<Style id="nStyle0400">  <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d261d6cd</color> </PolyStyle> </Style>
-		<Style id="nStyle0450">  <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d2f8f6e2</color> </PolyStyle> </Style>
-		<Style id="nStyle0500">  <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d25bb85f</color> </PolyStyle> </Style>
-		<Style id="nStyle0550">  <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d2eafeff</color> </PolyStyle> </Style>
-		<Style id="nStyle0575">  <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d2f8f6e2</color> </PolyStyle> </Style>
-		<Style id="nStyle0600">  <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d20c939c</color> </PolyStyle> </Style>
-		<Style id="nStyle0650">  <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d25bb85f</color> </PolyStyle> </Style>
-		<Style id="nStyle0700">  <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d299f7ff</color> </PolyStyle> </Style>
-		<Style id="nStyle0800">  <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d261d6cd</color> </PolyStyle> </Style>
-		<Style id="nStyle0900">  <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d25bb85f</color> </PolyStyle> </Style>
-		<Style id="nStyle0950">  <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d2eafeff</color> </PolyStyle> </Style>
-		<Style id="nStyle1000">  <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d20c939c</color> </PolyStyle> </Style>
-		<Style id="nStyle1050">  <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d2eafeff</color> </PolyStyle> </Style>
-		<Style id="nStyle1100">  <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d299f7ff</color> </PolyStyle> </Style>
-		<Style id="nStyle1150">  <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d2f8f6e2</color> </PolyStyle> </Style>
-		<Style id="nStyle1200">  <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d261d6cd</color> </PolyStyle> </Style>
-		<Style id="nStyle1275">  <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d2eafeff</color> </PolyStyle> </Style>
-		<Style id="nStyle1300">  <LineStyle> <color>4cffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>d25bb85f</color> </PolyStyle> </Style>
-		<Style id="hStylem1200"> <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>da61d6cd</color> </PolyStyle> </Style>
-		<Style id="hStylem1100"> <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>da5bb85f</color> </PolyStyle> </Style>
-		<Style id="hStylem1000"> <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>da0c939c</color> </PolyStyle> </Style>
-		<Style id="hStylem0950"> <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>daeafeff</color> </PolyStyle> </Style>
-		<Style id="hStylem0900"> <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>da99f7ff</color> </PolyStyle> </Style>
-		<Style id="hStylem0850"> <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>daeafeff</color> </PolyStyle> </Style>
-		<Style id="hStylem0800"> <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>da61d6cd</color> </PolyStyle> </Style>
-		<Style id="hStylem0700"> <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>da5bb85f</color> </PolyStyle> </Style>
-		<Style id="hStylem0600"> <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>da0c939c</color> </PolyStyle> </Style>
-		<Style id="hStylem0500"> <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>da99f7ff</color> </PolyStyle> </Style>
-		<Style id="hStylem0400"> <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>da61d6cd</color> </PolyStyle> </Style>
-		<Style id="hStylem0350"> <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>daeafeff</color> </PolyStyle> </Style>
-		<Style id="hStylem0300"> <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>da5bb85f</color> </PolyStyle> </Style>
-		<Style id="hStylem0200"> <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>da0c939c</color> </PolyStyle> </Style>
-		<Style id="hStylem0100"> <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>da99f7ff</color> </PolyStyle> </Style>
-		<Style id="hStyle0000">  <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>da61d6cd</color> </PolyStyle> </Style>
-		<Style id="hStyle0100">  <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>da5bb85f</color> </PolyStyle> </Style>
-		<Style id="hStyle0200">  <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>da0c939c</color> </PolyStyle> </Style>
-		<Style id="hStyle0300">  <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>da99f7ff</color> </PolyStyle> </Style>
-		<Style id="hStyle0350">  <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>daeafeff</color> </PolyStyle> </Style>
-		<Style id="hStyle0400">  <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>da61d6cd</color> </PolyStyle> </Style>
-		<Style id="hStyle0450">  <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>daf8f6e2</color> </PolyStyle> </Style>
-		<Style id="hStyle0500">  <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>da5bb85f</color> </PolyStyle> </Style>
-		<Style id="hStyle0550">  <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>daeafeff</color> </PolyStyle> </Style>
-		<Style id="hStyle0575">  <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>daf8f6e2</color> </PolyStyle> </Style>
-		<Style id="hStyle0600">  <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>da0c939c</color> </PolyStyle> </Style>
-		<Style id="hStyle0650">  <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>da5bb85f</color> </PolyStyle> </Style>
-		<Style id="hStyle0700">  <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>da99f7ff</color> </PolyStyle> </Style>
-		<Style id="hStyle0800">  <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>da61d6cd</color> </PolyStyle> </Style>
-		<Style id="hStyle0900">  <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>da5bb85f</color> </PolyStyle> </Style>
-		<Style id="hStyle0950">  <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>daeafeff</color> </PolyStyle> </Style>
-		<Style id="hStyle1000">  <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>da0c939c</color> </PolyStyle> </Style>
-		<Style id="hStyle1050">  <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>daeafeff</color> </PolyStyle> </Style>
-		<Style id="hStyle1100">  <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>da99f7ff</color> </PolyStyle> </Style>
-		<Style id="hStyle1150">  <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>daf8f6e2</color> </PolyStyle> </Style>
-		<Style id="hStyle1200">  <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>da61d6cd</color> </PolyStyle> </Style>
-		<Style id="hStyle1275">  <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>daeafeff</color> </PolyStyle> </Style>
-		<Style id="hStyle1300">  <LineStyle> <color>c0ffffff</color> <width>1.0</width> </LineStyle> <PolyStyle> <color>da5bb85f</color> </PolyStyle> </Style>
-		<StyleMap id="khStylem1200"> <Pair> <key>normal</key> <styleUrl>#nStylem1200</styleUrl> </Pair> <Pair> <key>highlight</key> <styleUrl>#hStylem1200</styleUrl> </Pair> </StyleMap>
-		<StyleMap id="khStylem1100"> <Pair> <key>normal</key> <styleUrl>#nStylem1100</styleUrl> </Pair> <Pair> <key>highlight</key> <styleUrl>#hStylem1100</styleUrl> </Pair> </StyleMap>
-		<StyleMap id="khStylem1000"> <Pair> <key>normal</key> <styleUrl>#nStylem1000</styleUrl> </Pair> <Pair> <key>highlight</key> <styleUrl>#hStylem1000</styleUrl> </Pair> </StyleMap>
-		<StyleMap id="khStylem0950"> <Pair> <key>normal</key> <styleUrl>#nStylem0950</styleUrl> </Pair> <Pair> <key>highlight</key> <styleUrl>#hStylem0950</styleUrl> </Pair> </StyleMap>
-		<StyleMap id="khStylem0900"> <Pair> <key>normal</key> <styleUrl>#nStylem0900</styleUrl> </Pair> <Pair> <key>highlight</key> <styleUrl>#hStylem0900</styleUrl> </Pair> </StyleMap>
-		<StyleMap id="khStylem0850"> <Pair> <key>normal</key> <styleUrl>#nStylem0850</styleUrl> </Pair> <Pair> <key>highlight</key> <styleUrl>#hStylem0850</styleUrl> </Pair> </StyleMap>
-		<StyleMap id="khStylem0800"> <Pair> <key>normal</key> <styleUrl>#nStylem0800</styleUrl> </Pair> <Pair> <key>highlight</key> <styleUrl>#hStylem0800</styleUrl> </Pair> </StyleMap>
-		<StyleMap id="khStylem0700"> <Pair> <key>normal</key> <styleUrl>#nStylem0700</styleUrl> </Pair> <Pair> <key>highlight</key> <styleUrl>#hStylem0700</styleUrl> </Pair> </StyleMap>
-		<StyleMap id="khStylem0600"> <Pair> <key>normal</key> <styleUrl>#nStylem0600</styleUrl> </Pair> <Pair> <key>highlight</key> <styleUrl>#hStylem0600</styleUrl> </Pair> </StyleMap>
-		<StyleMap id="khStylem0500"> <Pair> <key>normal</key> <styleUrl>#nStylem0500</styleUrl> </Pair> <Pair> <key>highlight</key> <styleUrl>#hStylem0500</styleUrl> </Pair> </StyleMap>
-		<StyleMap id="khStylem0400"> <Pair> <key>normal</key> <styleUrl>#nStylem0400</styleUrl> </Pair> <Pair> <key>highlight</key> <styleUrl>#hStylem0400</styleUrl> </Pair> </StyleMap>
-		<StyleMap id="khStylem0350"> <Pair> <key>normal</key> <styleUrl>#nStylem0350</styleUrl> </Pair> <Pair> <key>highlight</key> <styleUrl>#hStylem0350</styleUrl> </Pair> </StyleMap>
-		<StyleMap id="khStylem0300"> <Pair> <key>normal</key> <styleUrl>#nStylem0300</styleUrl> </Pair> <Pair> <key>highlight</key> <styleUrl>#hStylem0300</styleUrl> </Pair> </StyleMap>
-		<StyleMap id="khStylem0200"> <Pair> <key>normal</key> <styleUrl>#nStylem0200</styleUrl> </Pair> <Pair> <key>highlight</key> <styleUrl>#hStylem0200</styleUrl> </Pair> </StyleMap>
-		<StyleMap id="khStylem0100"> <Pair> <key>normal</key> <styleUrl>#nStylem0100</styleUrl> </Pair> <Pair> <key>highlight</key> <styleUrl>#hStylem0100</styleUrl> </Pair> </StyleMap>
-		<StyleMap id="khStyle0000">  <Pair> <key>normal</key> <styleUrl>#nStyle0000</styleUrl>  </Pair> <Pair> <key>highlight</key> <styleUrl>#hStyle0000</styleUrl>  </Pair> </StyleMap>
-		<StyleMap id="khStyle0100">  <Pair> <key>normal</key> <styleUrl>#nStyle0100</styleUrl>  </Pair> <Pair> <key>highlight</key> <styleUrl>#hStyle0100</styleUrl>  </Pair> </StyleMap>
-		<StyleMap id="khStyle0200">  <Pair> <key>normal</key> <styleUrl>#nStyle0200</styleUrl>  </Pair> <Pair> <key>highlight</key> <styleUrl>#hStyle0200</styleUrl>  </Pair> </StyleMap>
-		<StyleMap id="khStyle0300">  <Pair> <key>normal</key> <styleUrl>#nStyle0300</styleUrl>  </Pair> <Pair> <key>highlight</key> <styleUrl>#hStyle0300</styleUrl>  </Pair> </StyleMap>
-		<StyleMap id="khStyle0350">  <Pair> <key>normal</key> <styleUrl>#nStyle0350</styleUrl>  </Pair> <Pair> <key>highlight</key> <styleUrl>#hStyle0350</styleUrl>  </Pair> </StyleMap>
-		<StyleMap id="khStyle0400">  <Pair> <key>normal</key> <styleUrl>#nStyle0400</styleUrl>  </Pair> <Pair> <key>highlight</key> <styleUrl>#hStyle0400</styleUrl>  </Pair> </StyleMap>
-		<StyleMap id="khStyle0450">  <Pair> <key>normal</key> <styleUrl>#nStyle0450</styleUrl>  </Pair> <Pair> <key>highlight</key> <styleUrl>#hStyle0450</styleUrl>  </Pair> </StyleMap>
-		<StyleMap id="khStyle0500">  <Pair> <key>normal</key> <styleUrl>#nStyle0500</styleUrl>  </Pair> <Pair> <key>highlight</key> <styleUrl>#hStyle0500</styleUrl>  </Pair> </StyleMap>
-		<StyleMap id="khStyle0550">  <Pair> <key>normal</key> <styleUrl>#nStyle0550</styleUrl>  </Pair> <Pair> <key>highlight</key> <styleUrl>#hStyle0550</styleUrl>  </Pair> </StyleMap>
-		<StyleMap id="khStyle0575">  <Pair> <key>normal</key> <styleUrl>#nStyle0575</styleUrl>  </Pair> <Pair> <key>highlight</key> <styleUrl>#hStyle0575</styleUrl>  </Pair> </StyleMap>
-		<StyleMap id="khStyle0600">  <Pair> <key>normal</key> <styleUrl>#nStyle0600</styleUrl>  </Pair> <Pair> <key>highlight</key> <styleUrl>#hStyle0600</styleUrl>  </Pair> </StyleMap>
-		<StyleMap id="khStyle0650">  <Pair> <key>normal</key> <styleUrl>#nStyle0650</styleUrl>  </Pair> <Pair> <key>highlight</key> <styleUrl>#hStyle0650</styleUrl>  </Pair> </StyleMap>
-		<StyleMap id="khStyle0700">  <Pair> <key>normal</key> <styleUrl>#nStyle0700</styleUrl>  </Pair> <Pair> <key>highlight</key> <styleUrl>#hStyle0700</styleUrl>  </Pair> </StyleMap>
-		<StyleMap id="khStyle0800">  <Pair> <key>normal</key> <styleUrl>#nStyle0800</styleUrl>  </Pair> <Pair> <key>highlight</key> <styleUrl>#hStyle0800</styleUrl>  </Pair> </StyleMap>
-		<StyleMap id="khStyle0900">  <Pair> <key>normal</key> <styleUrl>#nStyle0900</styleUrl>  </Pair> <Pair> <key>highlight</key> <styleUrl>#hStyle0900</styleUrl>  </Pair> </StyleMap>
-		<StyleMap id="khStyle0950">  <Pair> <key>normal</key> <styleUrl>#nStyle0950</styleUrl>  </Pair> <Pair> <key>highlight</key> <styleUrl>#hStyle0950</styleUrl>  </Pair> </StyleMap>
-		<StyleMap id="khStyle1000">  <Pair> <key>normal</key> <styleUrl>#nStyle1000</styleUrl>  </Pair> <Pair> <key>highlight</key> <styleUrl>#hStyle1000</styleUrl>  </Pair> </StyleMap>
-		<StyleMap id="khStyle1050">  <Pair> <key>normal</key> <styleUrl>#nStyle1050</styleUrl>  </Pair> <Pair> <key>highlight</key> <styleUrl>#hStyle1050</styleUrl>  </Pair> </StyleMap>
-		<StyleMap id="khStyle1100">  <Pair> <key>normal</key> <styleUrl>#nStyle1100</styleUrl>  </Pair> <Pair> <key>highlight</key> <styleUrl>#hStyle1100</styleUrl>  </Pair> </StyleMap>
-		<StyleMap id="khStyle1150">  <Pair> <key>normal</key> <styleUrl>#nStyle1150</styleUrl>  </Pair> <Pair> <key>highlight</key> <styleUrl>#hStyle1150</styleUrl>  </Pair> </StyleMap>
-		<StyleMap id="khStyle1200">  <Pair> <key>normal</key> <styleUrl>#nStyle1200</styleUrl>  </Pair> <Pair> <key>highlight</key> <styleUrl>#hStyle1200</styleUrl>  </Pair> </StyleMap>
-		<StyleMap id="khStyle1275">  <Pair> <key>normal</key> <styleUrl>#nStyle1275</styleUrl>  </Pair> <Pair> <key>highlight</key> <styleUrl>#hStyle1275</styleUrl>  </Pair> </StyleMap>
-		<StyleMap id="khStyle1300">  <Pair> <key>normal</key> <styleUrl>#nStyle1300</styleUrl>  </Pair> <Pair> <key>highlight</key> <styleUrl>#hStyle1300</styleUrl>  </Pair> </StyleMap>
 		<Placemark>
 			<name>GMT -12:00</name>
-			<styleUrl>#khStylem1200</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -188,7 +73,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT -11:00</name>
-			<styleUrl>#khStylem1100</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -353,7 +237,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT -10:00</name>
-			<styleUrl>#khStylem1000</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -543,7 +426,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT -09:30</name>
-			<styleUrl>#khStylem0950</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -563,7 +445,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT -09:00</name>
-			<styleUrl>#khStylem0900</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -851,7 +732,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT -08:30</name>
-			<styleUrl>#khStylem0850</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -873,7 +753,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT -08:00</name>
-			<styleUrl>#khStylem0800</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -1567,7 +1446,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT -07:00</name>
-			<styleUrl>#khStylem0700</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -2475,7 +2353,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT -06:00</name>
-			<styleUrl>#khStylem0600</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -3162,7 +3039,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT -05:00</name>
-			<styleUrl>#khStylem0500</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -4359,7 +4235,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT -04:00</name>
-			<styleUrl>#khStylem0400</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -6557,7 +6432,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT -03.30</name>
-			<styleUrl>#khStylem0350</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -6649,7 +6523,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT -03:00</name>
-			<styleUrl>#khStylem0300</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -8180,7 +8053,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT -02:00</name>
-			<styleUrl>#khStylem0200</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -8449,7 +8321,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT -01:00</name>
-			<styleUrl>#khStylem0100</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -8804,7 +8675,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT +00:00</name>
-			<styleUrl>#khStyle0000</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -9588,7 +9458,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT +01:00</name>
-			<styleUrl>#khStyle0100</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -11340,7 +11209,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT +02:00</name>
-			<styleUrl>#khStyle0200</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -13551,7 +13419,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT +03:00</name>
-			<styleUrl>#khStyle0300</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -15823,7 +15690,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT +03:30</name>
-			<styleUrl>#khStyle0350</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -16269,7 +16135,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT +04:00</name>
-			<styleUrl>#khStyle0400</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -17614,7 +17479,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT +04:30</name>
-			<styleUrl>#khStyle0450</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -17946,7 +17810,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT +05:00</name>
-			<styleUrl>#khStyle0500</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -20437,7 +20300,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT +05:30</name>
-			<styleUrl>#khStyle0550</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -21837,7 +21699,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT +05:45</name>
-			<styleUrl>#khStyle0575</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -22052,7 +21913,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT +06:00</name>
-			<styleUrl>#khStyle0600</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -23400,7 +23260,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT +06:30</name>
-			<styleUrl>#khStyle0650</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -23964,7 +23823,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT +07:00</name>
-			<styleUrl>#khStyle0700</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -25750,7 +25608,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT +08:00</name>
-			<styleUrl>#khStyle0800</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -28181,7 +28038,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT +09:00</name>
-			<styleUrl>#khStyle0900</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -29938,7 +29794,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT +09:30</name>
-			<styleUrl>#khStyle0950</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -30211,7 +30066,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT +10:00</name>
-			<styleUrl>#khStyle1000</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -30980,7 +30834,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT +10:30</name>
-			<styleUrl>#khStyle1050</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -31000,7 +30853,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT +11:00</name>
-			<styleUrl>#khStyle1100</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -31544,7 +31396,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT +11:30</name>
-			<styleUrl>#khStyle1150</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -31564,7 +31415,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT +12:00</name>
-			<styleUrl>#khStyle1200</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -32033,7 +31883,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT +12:45</name>
-			<styleUrl>#khStyle1275</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -32068,7 +31917,6 @@
 		</Placemark>
 		<Placemark>
 			<name>GMT +13:00</name>
-			<styleUrl>#khStyle1300</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
