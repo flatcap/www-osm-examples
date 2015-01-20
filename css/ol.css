@@ -132,6 +132,7 @@ button.ol-full-screen-true:after {
 
 
 .ol-attribution {
+  display: none;
   text-align: right;
   bottom: .5em;
   right: .5em;

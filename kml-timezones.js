@@ -8,16 +8,17 @@ goog.require('ol.style.Fill');
 goog.require('ol.style.Stroke');
 goog.require('ol.style.Style');
 
-/*
- * Compute the style of the feature.  Here we want the opacity of polygons to
- * be based on the offset from local noon.  For example, a timezone where it is
- * currently noon would have an opacity of 0.75.  And a timezone where it is
- * currently midnight would have an opacity of 0.   This doesn't account for
- * daylight savings, so don't use it to plan your vacation.
- */
 var styleFunction = function(feature, resolution) {
 	var offset = 0;
 	var name = feature.get('name'); // e.g. GMT -08:30
+	var red = 255;
+	var green = 255;
+	if (!name) {
+		name = 'GMT -08:30';
+		red = 0;
+	} else {
+		green = 0;
+	}
 	var match = name.match(/([\-+]\d{2}):(\d{2})$/);
 	if (match) {
 		var hours = parseInt(match[1], 10);
@@ -34,7 +35,9 @@ var styleFunction = function(feature, resolution) {
 	var opacity = 0.75 * (1 - delta / 12);
 	return [new ol.style.Style({
 		fill: new ol.style.Fill({
-			color: [0xff, 0xff, 0x33, opacity]
+			// color: [0xff, 0xff, 0x33, opacity]
+			color: [red, green, 0x33, opacity]
+			// color: [255*Math.random(), 255*Math.random(), 255*Math.random(), 1]
 		}),
 		stroke: new ol.style.Stroke({
 			color: '#ffffff'
@@ -82,7 +85,7 @@ var displayFeatureInfo = function(pixel) {
 	});
 	if (feature) {
 		info.tooltip('hide')
-			.attr('data-original-title', feature.get('name'))
+			.attr('data-original-title', feature.get('description'))
 			.tooltip('fixTitle')
 			.tooltip('show');
 	} else {
