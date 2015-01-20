@@ -6,8 +6,7 @@ goog.require('ol.proj');
 goog.require('ol.source.GeoJSON');
 
 
-proj4.defs('ESRI:53009', '+proj=moll +lon_0=0 +x_0=0 +y_0=0 +a=6371000 ' +
-    '+b=6371000 +units=m +no_defs');
+proj4.defs('ESRI:53009', '+proj=moll +lon_0=0 +x_0=0 +y_0=0 +a=6371000 +b=6371000 +units=m +no_defs');
 
 // Configure the Sphere Mollweide projection object with an extent,
 // and a world extent. These are required for the Graticule.

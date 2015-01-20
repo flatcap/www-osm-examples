@@ -24,9 +24,5 @@ var map = new ol.Map({
   })
 });
 
-jQuery('#map').after('<button type="button" ' +
-    'onclick="map.getView().setZoom(map.getView().getZoom() - 1);">' +
-    'Zoom out</button>');
-jQuery('#map').after('<button type="button" ' +
-    'onclick="map.getView().setZoom(map.getView().getZoom() + 1);">' +
-    'Zoom in</button>');
+jQuery('#map').after('<button type="button" onclick="map.getView().setZoom(map.getView().getZoom() - 1);">Zoom out</button>');
+jQuery('#map').after('<button type="button" onclick="map.getView().setZoom(map.getView().getZoom() + 1);">Zoom in</button>');

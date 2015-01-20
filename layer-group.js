@@ -21,8 +21,7 @@ var map = new ol.Map({
         }),
         new ol.layer.Tile({
           source: new ol.source.TileJSON({
-            url: 'http://api.tiles.mapbox.com/v3/' +
-                'mapbox.world-borders-light.jsonp',
+            url: 'http://api.tiles.mapbox.com/v3/mapbox.world-borders-light.jsonp',
             crossOrigin: 'anonymous'
           })
         })

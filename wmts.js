@@ -22,8 +22,7 @@ for (var z = 0; z < 14; ++z) {
 }
 
 var attribution = new ol.Attribution({
-  html: 'Tiles &copy; <a href="http://services.arcgisonline.com/arcgis/rest/' +
-      'services/Demographics/USA_Population_Density/MapServer/">ArcGIS</a>'
+  html: 'Tiles &copy; <a href="http://services.arcgisonline.com/arcgis/rest/services/Demographics/USA_Population_Density/MapServer/">ArcGIS</a>'
 });
 
 
@@ -38,8 +37,7 @@ var map = new ol.Map({
       extent: projectionExtent,
       source: new ol.source.WMTS({
         attributions: [attribution],
-        url: 'http://services.arcgisonline.com/arcgis/rest/' +
-            'services/Demographics/USA_Population_Density/MapServer/WMTS/',
+        url: 'http://services.arcgisonline.com/arcgis/rest/services/Demographics/USA_Population_Density/MapServer/WMTS/',
         layer: '0',
         matrixSet: 'EPSG:3857',
         format: 'image/png',

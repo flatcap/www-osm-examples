@@ -8,8 +8,7 @@ goog.require('ol.source.XYZ');
 
 
 var attribution = new ol.Attribution({
-  html: 'Tiles &copy; USGS, rendered with ' +
-      '<a href="http://www.maptiler.com/">MapTiler</a>'
+  html: 'Tiles &copy; USGS, rendered with <a href="http://www.maptiler.com/">MapTiler</a>'
 });
 
 var mapMinZoom = 1;

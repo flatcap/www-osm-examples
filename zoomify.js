@@ -13,8 +13,7 @@ goog.require('ol.source.Zoomify');
 
 var imgWidth = 9911;
 var imgHeight = 6100;
-var url = 'http://vips.vtech.fr/cgi-bin/iipsrv.fcgi?zoomify=' +
-        '/mnt/MD1/AD00/plan_CHU-4HD-01/FOND.TIF/';
+var url = 'http://vips.vtech.fr/cgi-bin/iipsrv.fcgi?zoomify=/mnt/MD1/AD00/plan_CHU-4HD-01/FOND.TIF/';
 var crossOrigin = 'anonymous';
 
 var imgCenter = [imgWidth / 2, - imgHeight / 2];

@@ -8,8 +8,7 @@ goog.require('ol.source.XYZ');
 
 
 var attribution = new ol.Attribution({
-  html: 'Tiles &copy; <a href="http://maps.nls.uk/townplans/glasgow_1.html">' +
-      'National Library of Scotland</a>'
+  html: 'Tiles &copy; <a href="http://maps.nls.uk/townplans/glasgow_1.html">National Library of Scotland</a>'
 });
 
 var map = new ol.Map({
@@ -24,8 +23,7 @@ var map = new ol.Map({
       source: new ol.source.OSM({
         attributions: [
           new ol.Attribution({
-            html: 'Tiles &copy; <a href="http://www.opencyclemap.org/">' +
-                'OpenCycleMap</a>'
+            html: 'Tiles &copy; <a href="http://www.opencyclemap.org/">OpenCycleMap</a>'
           }),
           ol.source.OSM.ATTRIBUTION
         ],

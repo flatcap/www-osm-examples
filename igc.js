@@ -70,8 +70,7 @@ var map = new ol.Map({
       source: new ol.source.OSM({
         attributions: [
           new ol.Attribution({
-            html: 'All maps &copy; ' +
-                '<a href="http://www.opencyclemap.org/">OpenCycleMap</a>'
+            html: 'All maps &copy; <a href="http://www.opencyclemap.org/">OpenCycleMap</a>'
           }),
           ol.source.OSM.ATTRIBUTION
         ],

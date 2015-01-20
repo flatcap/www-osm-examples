@@ -28,8 +28,7 @@ for (z = 0; z < 16; ++z) {
   resolutions[z] = maxResolution / Math.pow(2, z);
 }
 
-var urlTemplate = 'http://services.arcgisonline.com/arcgis/rest/services/' +
-    'ESRI_Imagery_World_2D/MapServer/tile/{z}/{y}/{x}';
+var urlTemplate = 'http://services.arcgisonline.com/arcgis/rest/services/ESRI_Imagery_World_2D/MapServer/tile/{z}/{y}/{x}';
 
 var map = new ol.Map({
   target: 'map',

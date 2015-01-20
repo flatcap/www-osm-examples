@@ -13,8 +13,7 @@ var openCycleMapLayer = new ol.layer.Tile({
   source: new ol.source.OSM({
     attributions: [
       new ol.Attribution({
-        html: 'All maps &copy; ' +
-            '<a href="http://www.opencyclemap.org/">OpenCycleMap</a>'
+        html: 'All maps &copy; <a href="http://www.opencyclemap.org/">OpenCycleMap</a>'
       }),
       ol.source.OSM.ATTRIBUTION
     ],
@@ -26,8 +25,7 @@ var openSeaMapLayer = new ol.layer.Tile({
   source: new ol.source.OSM({
     attributions: [
       new ol.Attribution({
-        html: 'All maps &copy; ' +
-            '<a href="http://www.openseamap.org/">OpenSeaMap</a>'
+        html: 'All maps &copy; <a href="http://www.openseamap.org/">OpenSeaMap</a>'
       }),
       ol.source.OSM.ATTRIBUTION
     ],

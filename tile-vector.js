@@ -16,8 +16,7 @@ var waterLayer = new ol.layer.Vector({
     tileGrid: new ol.tilegrid.XYZ({
       maxZoom: 19
     }),
-    url: 'http://{a-c}.tile.openstreetmap.us/' +
-        'vectiles-water-areas/{z}/{x}/{y}.topojson'
+    url: 'http://{a-c}.tile.openstreetmap.us/vectiles-water-areas/{z}/{x}/{y}.topojson'
   }),
   style: new ol.style.Style({
     fill: new ol.style.Fill({
@@ -34,8 +33,7 @@ var roadLayer = new ol.layer.Vector({
     tileGrid: new ol.tilegrid.XYZ({
       maxZoom: 19
     }),
-    url: 'http://{a-c}.tile.openstreetmap.us/' +
-        'vectiles-highroad/{z}/{x}/{y}.topojson'
+    url: 'http://{a-c}.tile.openstreetmap.us/vectiles-highroad/{z}/{x}/{y}.topojson'
   }),
   style: function(feature, resolution) {
     var kind = feature.get('kind');
@@ -90,8 +88,7 @@ var buildingLayer = new ol.layer.Vector({
     tileGrid: new ol.tilegrid.XYZ({
       maxZoom: 19
     }),
-    url: 'http://{a-c}.tile.openstreetmap.us/' +
-        'vectiles-buildings/{z}/{x}/{y}.topojson'
+    url: 'http://{a-c}.tile.openstreetmap.us/vectiles-buildings/{z}/{x}/{y}.topojson'
   }),
   visible: false,
   style: function(f, resolution) {
@@ -109,8 +106,7 @@ var landuseLayer = new ol.layer.Vector({
     tileGrid: new ol.tilegrid.XYZ({
       maxZoom: 19
     }),
-    url: 'http://{a-c}.tile.openstreetmap.us/' +
-        'vectiles-land-usages/{z}/{x}/{y}.topojson'
+    url: 'http://{a-c}.tile.openstreetmap.us/vectiles-land-usages/{z}/{x}/{y}.topojson'
   }),
   visible: false,
   style: function(feature, resolution) {

@@ -18,8 +18,7 @@ var map = new ol.Map({
     }),
     new ol.layer.Tile({
       source: new ol.source.TileJSON({
-        url: 'http://api.tiles.mapbox.com/v3/' +
-            'mapbox.natural-earth-hypso-bathy.jsonp',
+        url: 'http://api.tiles.mapbox.com/v3/mapbox.natural-earth-hypso-bathy.jsonp',
         crossOrigin: 'anonymous'
       }),
       minResolution: 2000,
