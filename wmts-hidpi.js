@@ -5,8 +5,7 @@ goog.require('ol.layer.Tile');
 goog.require('ol.source.WMTS');
 goog.require('ol.tilegrid.WMTS');
 
-var template =
-		'{Layer}/{Style}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.jpeg';
+var template = '{Layer}/{Style}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.jpeg';
 var urls = [
 	'http://maps1.wien.gv.at/basemap/' + template,
 	'http://maps2.wien.gv.at/basemap/' + template,

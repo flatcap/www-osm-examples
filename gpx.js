@@ -107,8 +107,7 @@ if ('download' in exportGPXElement) {
 			});
 			var string = new ol.format.GPX().writeFeatures(features);
 			var base64 = exampleNS.strToBase64(string);
-			exportGPXElement.href =
-					'data:text/gpx+xml;base64,' + base64;
+			exportGPXElement.href = 'data:text/gpx+xml;base64,' + base64;
 		}
 	}, false);
 } else {

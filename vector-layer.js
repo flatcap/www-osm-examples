@@ -12,10 +12,10 @@ goog.require('ol.style.Text');
 
 var style = new ol.style.Style({
 	fill: new ol.style.Fill({
-		color: 'rgba(255, 255, 255, 0.6)'
+		color: 'rgba(255, 255, 255, 0.5)'
 	}),
 	stroke: new ol.style.Stroke({
-		color: '#319FD3',
+		color: '#00FF00',
 		width: 1
 	}),
 	text: new ol.style.Text({
@@ -50,8 +50,9 @@ var map = new ol.Map({
 	],
 	target: 'map',
 	view: new ol.View({
-		center: [0, 0],
-		zoom: 1
+		// center: [0, 0],
+		center: ol.proj.transform([-3.143848, 54.699234], 'EPSG:4326', 'EPSG:3857'),
+		zoom: 5
 	})
 });
 

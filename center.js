@@ -74,8 +74,7 @@ zoomtoswitzerlandbest.addEventListener('click', function() {
 	);
 }, false);
 
-var zoomtoswitzerlandconstrained =
-		document.getElementById('zoomtoswitzerlandconstrained');
+var zoomtoswitzerlandconstrained = document.getElementById('zoomtoswitzerlandconstrained');
 zoomtoswitzerlandconstrained.addEventListener('click', function() {
 	var feature = source.getFeatures()[0];
 	var polygon = /** @type {ol.geom.SimpleGeometry} */ (feature.getGeometry());
@@ -89,8 +88,7 @@ zoomtoswitzerlandconstrained.addEventListener('click', function() {
 	);
 }, false);
 
-var zoomtoswitzerlandnearest =
-		document.getElementById('zoomtoswitzerlandnearest');
+var zoomtoswitzerlandnearest = document.getElementById('zoomtoswitzerlandnearest');
 zoomtoswitzerlandnearest.addEventListener('click', function() {
 	var feature = source.getFeatures()[0];
 	var polygon = /** @type {ol.geom.SimpleGeometry} */ (feature.getGeometry());

@@ -5,8 +5,7 @@ goog.require('ol.layer.Tile');
 goog.require('ol.source.MapQuest');
 
 function setResetBrightnessButtonHTML() {
-	resetBrightness.innerHTML = 'Brightness (' +
-			layer.getBrightness().toFixed(3) + ')';
+	resetBrightness.innerHTML = 'Brightness (' + layer.getBrightness().toFixed(3) + ')';
 }
 
 function setResetContrastButtonHTML() {

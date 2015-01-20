@@ -30,8 +30,7 @@
 		for (i = 0; i < pairs.length; ++i) {
 			pair = pairs[i].split('=');
 			if (pair[0]) {
-					pageParams[decodeURIComponent(pair[0])] =
-							decodeURIComponent(pair[1]);
+				pageParams[decodeURIComponent(pair[0])] = decodeURIComponent(pair[1]);
 			}
 		}
 	}
@@ -46,8 +45,7 @@
 			for (i = chunks.length - 1; i >= 0; --i) {
 				pair = chunks[i].split('=');
 				if (pair[0]) {
-					scriptParams[decodeURIComponent(pair[0])] =
-							decodeURIComponent(pair[1]);
+					scriptParams[decodeURIComponent(pair[0])] = decodeURIComponent(pair[1]);
 				}
 			}
 			break;

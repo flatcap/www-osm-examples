@@ -110,8 +110,7 @@ var displaySnap = function(coordinate) {
 			point.setCoordinates(closestPoint);
 		}
 		var date = new Date(closestPoint[2] * 1000);
-		info.innerHTML =
-				closestFeature.get('PLT') + ' (' + date.toUTCString() + ')';
+		info.innerHTML = closestFeature.get('PLT') + ' (' + date.toUTCString() + ')';
 		var coordinates = [coordinate, [closestPoint[0], closestPoint[1]]];
 		if (line === null) {
 			line = new ol.geom.LineString(coordinates);

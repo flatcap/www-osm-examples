@@ -31,7 +31,6 @@ map.on('singleclick', function(evt) {
 			evt.coordinate, viewResolution, 'EPSG:3857',
 			{'INFO_FORMAT': 'text/html'});
 	if (url) {
-		document.getElementById('info').innerHTML =
-				'<iframe seamless src="' + url + '"></iframe>';
+		document.getElementById('info').innerHTML = '<iframe seamless src="' + url + '"></iframe>';
 	}
 });

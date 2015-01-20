@@ -9,10 +9,10 @@ goog.require('ol.style.Stroke');
 goog.require('ol.style.Style');
 
 /*
- * Compute the style of the feature.	Here we want the opacity of polygons to
- * be based on the offset from local noon.	For example, a timezone where it is
- * currently noon would have an opacity of 0.75.	And a timezone where it is
- * currently midnight would have an opacity of 0.	 This doesn't account for
+ * Compute the style of the feature.  Here we want the opacity of polygons to
+ * be based on the offset from local noon.  For example, a timezone where it is
+ * currently noon would have an opacity of 0.75.  And a timezone where it is
+ * currently midnight would have an opacity of 0.   This doesn't account for
  * daylight savings, so don't use it to plan your vacation.
  */
 var styleFunction = function(feature, resolution) {
@@ -25,8 +25,7 @@ var styleFunction = function(feature, resolution) {
 		offset = 60 * hours + minutes;
 	}
 	var date = new Date();
-	var local = new Date(date.getTime() +
-			(date.getTimezoneOffset() + offset) * 60000);
+	var local = new Date(date.getTime() + (date.getTimezoneOffset() + offset) * 60000);
 	// offset from local noon (in hours)
 	var delta = Math.abs(12 - local.getHours() + (local.getMinutes() / 60));
 	if (delta > 12) {

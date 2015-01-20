@@ -10,8 +10,7 @@ function setResetHueButtonHTML() {
 }
 
 function setResetSaturationButtonHTML() {
-	resetSaturation.innerHTML = 'Saturation (' +
-			layer.getSaturation().toFixed(2) + ')';
+	resetSaturation.innerHTML = 'Saturation (' + layer.getSaturation().toFixed(2) + ')';
 }
 
 if (!ol.has.WEBGL) {

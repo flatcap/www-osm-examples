@@ -75,8 +75,7 @@ if ('download' in exportKMLElement) {
 			});
 			var string = new ol.format.KML().writeFeatures(features);
 			var base64 = exampleNS.strToBase64(string);
-			exportKMLElement.href =
-					'data:application/vnd.google-earth.kml+xml;base64,' + base64;
+			exportKMLElement.href = 'data:application/vnd.google-earth.kml+xml;base64,' + base64;
 		}
 	}, false);
 } else {

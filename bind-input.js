@@ -7,12 +7,9 @@ goog.require('ol.layer.Tile');
 goog.require('ol.source.OSM');
 
 function checkWebGL(evt) {
-	document.getElementById('no-webgl').style.display =
-			ol.has.WEBGL ? 'none' : '';
-	document.getElementById('has-webgl').style.display =
-			ol.has.WEBGL && !evt.glContext ? '' : 'none';
-	document.getElementById('webgl').style.display =
-			evt.glContext ? '' : 'none';
+	document.getElementById('no-webgl').style.display = ol.has.WEBGL ? 'none' : '';
+	document.getElementById('has-webgl').style.display = ol.has.WEBGL && !evt.glContext ? '' : 'none';
+	document.getElementById('webgl').style.display = evt.glContext ? '' : 'none';
 }
 
 var layer = new ol.layer.Tile({
