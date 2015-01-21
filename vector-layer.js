@@ -10,14 +10,18 @@ goog.require('ol.style.Stroke');
 goog.require('ol.style.Style');
 goog.require('ol.style.Text');
 
-var style = new ol.style.Style({
+var style1 = new ol.style.Style({
 	fill: new ol.style.Fill({
 		color: 'rgba(255, 255, 255, 0.5)'
 	}),
+});
+var style2 = new ol.style.Style({
 	stroke: new ol.style.Stroke({
 		color: '#00FF00',
 		width: 1
 	}),
+});
+var style3 = new ol.style.Style({
 	text: new ol.style.Text({
 		font: '12px Calibri,sans-serif',
 		fill: new ol.style.Fill({
@@ -29,14 +33,16 @@ var style = new ol.style.Style({
 		})
 	})
 });
-var styles = [style];
+
+var styles = [style1, style2, style3];
+
 var vectorLayer = new ol.layer.Vector({
 	source: new ol.source.GeoJSON({
 		projection: 'EPSG:3857',
 		url: 'data/geojson/countries.geojson'
 	}),
 	style: function(feature, resolution) {
-		style.getText().setText(resolution < 5000 ? feature.get('name') : '');
+		style3.getText().setText(resolution < 5000 ? feature.get('name') : '');
 		return styles;
 	}
 });
