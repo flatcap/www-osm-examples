@@ -138,12 +138,9 @@ app.Drag.prototype.handleUpEvent = function(evt) {
 
 var pointFeature = new ol.Feature(new ol.geom.Point([0, 0]));
 
-var lineFeature = new ol.Feature(
-		new ol.geom.LineString([[-1e7, 1e6], [-1e6, 3e6]]));
+var lineFeature = new ol.Feature(new ol.geom.LineString([[-1e7, 1e6], [-1e6, 3e6]]));
 
-var polygonFeature = new ol.Feature(
-		new ol.geom.Polygon([[[-3e6, -1e6], [-3e6, 1e6],
-				[-1e6, 1e6], [-1e6, -1e6], [-3e6, -1e6]]]));
+var polygonFeature = new ol.Feature(new ol.geom.Polygon([[[-3e6, -1e6], [-3e6, 1e6], [-1e6, 1e6], [-1e6, -1e6], [-3e6, -1e6]]]));
 
 var map = new ol.Map({
 	interactions: ol.interaction.defaults().extend([new app.Drag()]),

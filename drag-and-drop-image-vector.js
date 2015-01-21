@@ -123,8 +123,7 @@ dragAndDropInteraction.on('addfeatures', function(event) {
 		})
 	}));
 	var view = map.getView();
-	view.fitExtent(
-			vectorSource.getExtent(), /** @type {ol.Size} */ (map.getSize()));
+	view.fitExtent(vectorSource.getExtent(), /** @type {ol.Size} */ (map.getSize()));
 });
 
 var displayFeatureInfo = function(pixel) {

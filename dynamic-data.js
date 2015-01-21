@@ -63,8 +63,7 @@ map.on('postcompose', function(event) {
 		coordinates.push([x, y]);
 	}
 	vectorContext.setImageStyle(imageStyle);
-	vectorContext.drawMultiPointGeometry(
-			new ol.geom.MultiPoint(coordinates), null);
+	vectorContext.drawMultiPointGeometry(new ol.geom.MultiPoint(coordinates), null);
 
 	var headPoint = new ol.geom.Point(coordinates[coordinates.length - 1]);
 	var headFeature = new ol.Feature(headPoint);

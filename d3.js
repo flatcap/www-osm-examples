@@ -58,10 +58,8 @@ d3.json('data/topojson/us.json', function(error, us) {
 		var pixelBoundsHeight = pixelBounds[1][1] - pixelBounds[0][1];
 
 		var geoBounds = d3.geo.bounds(features);
-		var geoBoundsLeftBottom = ol.proj.transform(
-				geoBounds[0], 'EPSG:4326', projection);
-		var geoBoundsRightTop = ol.proj.transform(
-				geoBounds[1], 'EPSG:4326', projection);
+		var geoBoundsLeftBottom = ol.proj.transform(geoBounds[0], 'EPSG:4326', projection);
+		var geoBoundsRightTop = ol.proj.transform(geoBounds[1], 'EPSG:4326', projection);
 		var geoBoundsWidth = geoBoundsRightTop[0] - geoBoundsLeftBottom[0];
 		if (geoBoundsWidth < 0) {
 			geoBoundsWidth += ol.extent.getWidth(projection.getExtent());

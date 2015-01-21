@@ -121,10 +121,8 @@ function convolve(context, kernel) {
 			for (var kernelY = 0; kernelY < size; ++kernelY) {
 				for (var kernelX = 0; kernelX < size; ++kernelX) {
 					var weight = kernel[kernelY * size + kernelX];
-					var neighborY = Math.min(
-							height - 1, Math.max(0, pixelY + kernelY - half));
-					var neighborX = Math.min(
-							width - 1, Math.max(0, pixelX + kernelX - half));
+					var neighborY = Math.min(height - 1, Math.max(0, pixelY + kernelY - half));
+					var neighborX = Math.min(width - 1, Math.max(0, pixelX + kernelX - half));
 					var inputIndex = (neighborY * width + neighborX) * 4;
 					r += inputData[inputIndex] * weight;
 					g += inputData[inputIndex + 1] * weight;

@@ -12,8 +12,7 @@ var raster = new ol.layer.Tile({
 });
 
 var format = new ol.format.WKT();
-var feature = format.readFeature(
-		'POLYGON((10.689697265625 -25.0927734375, 34.595947265625 -20.1708984375, 38.814697265625 -35.6396484375, 13.502197265625 -39.1552734375, 10.689697265625 -25.0927734375))');
+var feature = format.readFeature('POLYGON((10.689697265625 -25.0927734375, 34.595947265625 -20.1708984375, 38.814697265625 -35.6396484375, 13.502197265625 -39.1552734375, 10.689697265625 -25.0927734375))');
 feature.getGeometry().transform('EPSG:4326', 'EPSG:3857');
 
 var vector = new ol.layer.Vector({

@@ -60,8 +60,7 @@ var features = new Array(featureCount);
 var feature, geometry;
 var e = 25000000;
 for (i = 0; i < featureCount; ++i) {
-	geometry = new ol.geom.Point(
-			[2 * e * Math.random() - e, 2 * e * Math.random() - e]);
+	geometry = new ol.geom.Point([2 * e * Math.random() - e, 2 * e * Math.random() - e]);
 	feature = new ol.Feature(geometry);
 	feature.setStyle(
 			new ol.style.Style({
