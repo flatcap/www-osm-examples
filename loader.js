@@ -56,7 +56,7 @@
 
 	var scriptId = encodeURIComponent(scriptParams.id);
 	if (!raw) {
-		document.write('<scr' + 'ipt type="text/javascript" src="build/ol.js"></scr' + 'ipt>');
+		document.write('<scr' + 'ipt type="text/javascript" src="build/ol-debug.js"></scr' + 'ipt>');
 	} else {
 		window.CLOSURE_NO_DEPS = true; // we've got our own deps file
 		document.write('<scr' + 'ipt type="text/javascript" src="closure/base.js"></scr' + 'ipt>');
