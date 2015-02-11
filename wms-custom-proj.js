@@ -1,12 +1,3 @@
-goog.require('ol.Attribution');
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.control');
-goog.require('ol.control.ScaleLine');
-goog.require('ol.layer.Tile');
-goog.require('ol.proj');
-goog.require('ol.proj.Projection');
-goog.require('ol.source.TileWMS');
 
 // By default OpenLayers does not know about the EPSG:21781 (Swiss) projection.
 // So we create a projection instance for EPSG:21781 and pass it to

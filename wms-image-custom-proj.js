@@ -1,11 +1,3 @@
-goog.require('ol.Attribution');
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.control');
-goog.require('ol.control.ScaleLine');
-goog.require('ol.layer.Image');
-goog.require('ol.proj');
-goog.require('ol.source.ImageWMS');
 
 // Transparent Proj4js support: ol.proj.get() creates and returns a projection
 // known to Proj4js if it is unknown to OpenLayers, and registers functions to

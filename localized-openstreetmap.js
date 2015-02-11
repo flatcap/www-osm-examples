@@ -1,9 +1,3 @@
-goog.require('ol.Attribution');
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.control');
-goog.require('ol.layer.Tile');
-goog.require('ol.source.OSM');
 
 // tiles.openseamap.org does not set CORS headers, so we have to disable
 // crossOrigin and we cannot use WebGL.

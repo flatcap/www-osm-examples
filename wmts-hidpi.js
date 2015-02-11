@@ -1,9 +1,3 @@
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.has');
-goog.require('ol.layer.Tile');
-goog.require('ol.source.WMTS');
-goog.require('ol.tilegrid.WMTS');
 
 var template = '{Layer}/{Style}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.jpeg';
 var urls = [

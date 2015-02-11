@@ -1,10 +1,3 @@
-goog.require('ol.Attribution');
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.extent');
-goog.require('ol.layer.Image');
-goog.require('ol.proj.Projection');
-goog.require('ol.source.ImageStatic');
 
 // Map views always need a projection.	Here we just want to map image
 // coordinates directly to map coordinates, so we create a projection that uses

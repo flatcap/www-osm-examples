@@ -1,7 +1,3 @@
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.layer.Image');
-goog.require('ol.source.ImageMapGuide');
 
 var mdf = 'Library://Samples/Sheboygan/Maps/Sheboygan.MapDefinition';
 var agentUrl = 'http://data.mapguide.com/mapguide/mapagent/mapagent.fcgi?USERNAME=Anonymous';

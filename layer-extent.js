@@ -1,8 +1,3 @@
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.layer.Tile');
-goog.require('ol.proj');
-goog.require('ol.source.TileJSON');
 
 function transform(extent) {
 	return ol.proj.transformExtent(extent, 'EPSG:4326', 'EPSG:3857');

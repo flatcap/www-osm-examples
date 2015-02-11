@@ -1,9 +1,3 @@
-goog.require('ol.Graticule');
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.layer.Vector');
-goog.require('ol.proj');
-goog.require('ol.source.GeoJSON');
 
 proj4.defs('ESRI:53009', '+proj=moll +lon_0=0 +x_0=0 +y_0=0 +a=6371000 +b=6371000 +units=m +no_defs');
 

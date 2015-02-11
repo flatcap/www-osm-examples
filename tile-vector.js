@@ -1,13 +1,3 @@
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.format.TopoJSON');
-goog.require('ol.layer.Vector');
-goog.require('ol.proj');
-goog.require('ol.source.TileVector');
-goog.require('ol.style.Fill');
-goog.require('ol.style.Stroke');
-goog.require('ol.style.Style');
-goog.require('ol.tilegrid.XYZ');
 
 var waterLayer = new ol.layer.Vector({
 	source: new ol.source.TileVector({

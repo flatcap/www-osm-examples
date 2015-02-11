@@ -1,9 +1,3 @@
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.layer.Tile');
-goog.require('ol.proj');
-goog.require('ol.proj.Projection');
-goog.require('ol.source.Zoomify');
 
 // This server does not support CORS, and so is incompatible with WebGL.
 //var imgWidth = 8001;

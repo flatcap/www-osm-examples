@@ -1,4 +1,3 @@
-goog.require('ol.format.WMSCapabilities');
 
 var parser = new ol.format.WMSCapabilities();
 

@@ -1,13 +1,3 @@
-goog.require('ol.Feature');
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.geom.Point');
-goog.require('ol.layer.Vector');
-goog.require('ol.source.Vector');
-goog.require('ol.style.Fill');
-goog.require('ol.style.RegularShape');
-goog.require('ol.style.Stroke');
-goog.require('ol.style.Style');
 
 var stroke = new ol.style.Stroke({color: 'black', width: 2});
 var fill = new ol.style.Fill({color: 'red'});
